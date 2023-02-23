@@ -1,5 +1,6 @@
-import '@/styles/globals.css'
+import { FavoritesContextProvider } from "@/store/context";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return     <FavoritesContextProvider>
+  <Component {...pageProps} /></FavoritesContextProvider>
 }
