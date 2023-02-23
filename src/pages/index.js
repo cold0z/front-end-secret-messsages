@@ -18,7 +18,7 @@ export default function Home() {
 
   const router = useRouter();
   useEffect(() => {
-    fetch("https://secret-messages.onrender.com:10000/agents", {
+    fetch("https://secret-messages-backend.onrender.com/agents", {
       headers: {
         Authorization:
           "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNyIsIm5hbWUiOiJKb2huIn0sImlhdCI6MTY3NzEwNjU2MSwiZXhwIjoxNzU0ODY2NTYxfQ.aGOkxnXB7QXwei-c8KVfC2k4Z1BPLpgaEvFNzRV3LX0",
