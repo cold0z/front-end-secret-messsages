@@ -58,7 +58,7 @@ export default function Home() {
     const body = { title: title, agent: agent, message: messasge };
     console.warn("submitHandler", body);
 
-    fetch("https://secret-messages.onrender.com:10000/send", {
+    fetch("https://secret-messages-backend.onrender.com/send", {
       body: JSON.stringify(body),
       method: "post",
       headers: {
