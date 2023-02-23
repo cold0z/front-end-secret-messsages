@@ -65,7 +65,7 @@ export default function Home() {
         "Content-Type": "application/json",
 
         Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNyIsIm5hbWUiOiJKb2huIn0sImlhdCI6MTY3NzA2Nzg5MSwiZXhwIjoxNjc3MTIxODkxfQ.hWlQwgTmNhAmpFv-zLsEH3531LETsFdQMy8t0l_HzJw",
+          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNyIsIm5hbWUiOiJKb2huIn0sImlhdCI6MTY3NzEwNjU2MSwiZXhwIjoxNzU0ODY2NTYxfQ.aGOkxnXB7QXwei-c8KVfC2k4Z1BPLpgaEvFNzRV3LX0",
       },
     })
       .then((response) => response.json())
